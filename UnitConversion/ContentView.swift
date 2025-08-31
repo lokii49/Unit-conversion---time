@@ -61,7 +61,7 @@ struct ContentView: View {
                 Section("Input Value") {
                     TextField("input value", value: $inputValue, format: .number)
                 }
-                .keyboardType(.numberPad)
+                .keyboardType(.decimalPad)
                 .focused($inputValueSelected)
                 
                 Section("Output Units") {
